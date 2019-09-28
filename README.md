@@ -8,7 +8,7 @@
 ## 修改记录
 1、native-echarts 在react-native-webview 替换webview后出错  
   tmp.html改为动态：
-  `<!DOCTYPE html>
+  ```<!DOCTYPE html>
     <html>
       <head>
         <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
@@ -32,7 +32,7 @@
       <body>
         <div id="main"></div>
       <body>
-    <html>`
+    <html>```
 2、增加 tplurl 属性，可传入自定义的tmp.html
 
 ## install
