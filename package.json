@@ -1,6 +1,6 @@
 {
-  "name": "native-echarts",
-  "version": "0.5.0",
+  "name": "native-echarts1",
+  "version": "0.5.1",
   "description": "echarts for react-native",
   "main": "src/index.js",
   "directories": {
@@ -22,9 +22,9 @@
   "author": "somonus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/somonus/react-native-echarts/issues"
+    "url": "https://github.com/shz8/react-native-echarts/issues"
   },
-  "homepage": "https://github.com/somonus/react-native-echarts#readme",
+  "homepage": "https://github.com/shz8/react-native-echarts#readme",
   "dependencies": {
     "echarts": "4.3.0",
     "react-native-webview": "^7.2.7"
