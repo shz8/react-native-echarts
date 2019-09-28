@@ -4,9 +4,41 @@
   [![npm](https://img.shields.io/npm/dm/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
   [![License](http://img.shields.io/npm/l/native-echarts.svg?style=flat)](https://raw.githubusercontent.com/somonus/react-native-echarts/master/LICENSE.md)
   
+
+## 修改记录
+1、native-echarts 在react-native-webview 替换webview后出错  
+  tmp.html改为动态：
+  `<!DOCTYPE html>
+    <html>
+      <head>
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+        <title>echarts</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <style type="text/css">
+          html,body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+          }
+          #main {
+            height: 100%;
+          }
+        </style>
+        <script src="https://cdn.bootcss.com/echarts/4.3.0/echarts.min.js"></script>
+      </head>
+      
+      <body>
+        <div id="main"></div>
+      <body>
+    <html>`
+2、增加 tplurl 属性，可传入自定义的tmp.html
+
 ## install
 
-$ npm install native-echarts --save
+
+$ npm install native-echarts1 --save
 
 ## Usage
 
@@ -27,7 +59,7 @@ import {
   Text,
   View
 } from 'react-native';
-import Echarts from 'native-echarts';
+import Echarts from 'native-echarts1';
 
 export default class app extends Component {
   render() {

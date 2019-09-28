@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/somonus/react-native-echarts.git"
+    "url": "git+https://github.com/shz8/react-native-echarts.git"
   },
   "keywords": [
     "react-native",
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/somonus/react-native-echarts#readme",
   "dependencies": {
-    "echarts": "3.2.3"
+    "echarts": "4.3.0",
+    "react-native-webview": "^7.2.7"
   }
 }
