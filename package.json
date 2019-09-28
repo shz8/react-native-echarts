@@ -1,6 +1,6 @@
 {
   "name": "native-echarts1",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "echarts for react-native",
   "main": "src/index.js",
   "directories": {
