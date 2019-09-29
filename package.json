@@ -1,6 +1,6 @@
 {
   "name": "native-echarts1",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "echarts for react-native",
   "main": "src/index.js",
   "directories": {
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/shz8/react-native-echarts#readme",
   "dependencies": {
     "echarts": "4.3.0",
-    "react-native-webview": "^7.2.7"
+    "react-native-webview": "^6.11.1"
   }
 }
